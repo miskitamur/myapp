@@ -1,4 +1,35 @@
-.label{
-  fontsize="5px"
+.label_user{
+  font-size: 30px;
+  position: absolute;
+  top: 35%;
+  left:20%;
 }
-  
+
+.label_pass{
+  font-size: 30px;
+  position: absolute;
+  top: 45%;
+  left:20%;
+}
+
+input{
+  height: 40px;
+  width: 400px;
+}
+
+h1{
+  font-size: 60px;
+  position: absolute;
+  top: 10%;
+  left:35%;
+}
+
+button{
+  height: 50px;
+  width: 150px;
+  background-color: #32CD32;
+  font-size: 20px;
+  position: absolute;
+  top: 55%;
+  right: 30%;
+}
