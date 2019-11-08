@@ -3,7 +3,7 @@ public class HelloWorld {
     System.out.println("Hello World!!!");
     System.out.println("Hello World!!!");
 
-    if (0 == 1) {
+    if (0 == 3) {
       System.out.println("asa");
       System.out.println("asa2");
     }
