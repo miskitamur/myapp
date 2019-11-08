@@ -2,19 +2,19 @@
   font-size: 30px;
   position: absolute;
   top: 35%;
-  left:20%;
+  left:25%;
 }
 
 .label_pass{
   font-size: 30px;
   position: absolute;
   top: 45%;
-  left:20%;
+  left:25%;
 }
 
 input{
   height: 40px;
-  width: 400px;
+  width: 350px;
 }
 
 h1{
@@ -31,5 +31,5 @@ button{
   font-size: 20px;
   position: absolute;
   top: 55%;
-  right: 30%;
+  right: 40%;
 }
