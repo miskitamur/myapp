@@ -1,0 +1,64 @@
+/* 外枠部分 */
+div.y_data_area {
+  width: 1200px;
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  margin: 0 auto;
+}
+
+/* タイトル部分 */
+table.y_data_title {
+  width: 1200px;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0; /* tableのcellspacing="0"の代わり */
+}
+
+table.y_data_title th {
+  border-top: 1px solid #CCC;
+  background: #EEF1F4;
+}
+
+table.y_data_title th,
+table.y_data_title td {
+  padding: 2px;
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+}
+
+table.y_data_title th.r_none,
+table.y_data_title td.r_none {
+  border-right: none; /* 右ボーダーの重なりを防止 */
+}
+
+/* データ部分 */
+div.y_scroll_box {
+  width: 1200px;
+  max-height: 100px;
+  overflow-x: hidden; /* 横スクロール非表示 */
+  overflow-y: scroll; /* 縦スクロール */
+}
+
+table.y_data {
+  width: 1200px;
+  border-collapse: separate;
+  border-spacing: 0; /* tableのcellspacing="0"の代わり */
+  table-layout: fixed;　/* 内容を固定 */
+}
+
+table.y_data th,
+table.y_data td {
+  padding: 2px;
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+}
+
+table.y_data td {
+  overflow: hidden; /* データが幅を超えたとき非表示に */
+  white-space: nowrap; /* データの折り返しを防止 */
+}
+
+table.y_data td p {
+  margin: 0; /* 余分なマージンを消去 */
+}
