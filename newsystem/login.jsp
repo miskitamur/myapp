@@ -9,14 +9,14 @@
   <body>
     <h1>ログイン画面</h1>
 
-
+      <form action = "/tomcat_test/LoginLogic" method="post">
         <div class="label_user">ユーザー名
           <input type="text" name="username" value="">
         </div>
         <div class="label_pass">パスワード
           <input type="password" name="password" value="">
         </div>
-
-      <button type="button" name="login">ログイン</button>
+      <input type ="submit" value ="ログイン">
+      </form>
   </body>
 </html>
