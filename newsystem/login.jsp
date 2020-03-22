@@ -1,6 +1,6 @@
-<%@page import=""%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -9,12 +9,12 @@
   <body>
     <h1>ログイン画面</h1>
 
-      <form action = "/tomcat_test/LoginLogic" method="post">
+      <form action = "/newsystem/servlet/LoginServlet" method="post">
         <div class="label_user">ユーザー名
-          <input type="text" name="username" value="">
+          <input type="text" name="username">
         </div>
         <div class="label_pass">パスワード
-          <input type="password" name="password" value="">
+          <input type="password" name="password">
         </div>
       <input type ="submit" value ="ログイン">
       </form>
